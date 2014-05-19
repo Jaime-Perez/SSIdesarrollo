@@ -1,0 +1,17 @@
+Database=educassi
+
+Uid=EducativoAdmin
+Pwd=Educ4583+
+
+
+*/-------------------usuario de aplicacion admin
+
+Usuario =  'admin'
+Contrasena` =  'AdminEduc'
+
+
+
+
+
+INSERT INTO `educassi`.`tmausuario` (`idUsuario`, `txUsuario`, `txContrasena`, `boNoticias`, `idTipoUsuario`, `idEstadoUsuario`, `idPersona`) VALUES (NULL, 'admin', 'AdminEduc', '1', '1', '1', '');
+
