@@ -73,5 +73,12 @@ namespace SSI.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        internal static System.Drawing.Bitmap SSI_logo {
+            get {
+                object obj = ResourceManager.GetObject("SSI_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

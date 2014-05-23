@@ -18,7 +18,7 @@ namespace SSI
 
         private void frmPrincipal1_Load(object sender, EventArgs e)
         {
-
+            this.frmPrincipal1_ResizeEnd(null,null);
         }
 
         private void frmPrincipal1_ResizeEnd(object sender, EventArgs e)
@@ -31,6 +31,12 @@ namespace SSI
             lbLogo.Left = this.Size.Width - 210;
 
             
+        }
+
+        private void tipoDeUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmTipoUsuario frm = new frmTipoUsuario();
+                    frm.Show();
         }
 
 

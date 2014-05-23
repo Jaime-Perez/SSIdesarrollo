@@ -19,7 +19,7 @@ namespace SSI
 
 
   /*--------------------------------------------
-   Nombre:         Mostrar
+   Nombre:         Conexión
    Autor:          Jaime Pérez
    fecha:          16may2014
    Detalle:        Permite gestionar la conexión en la BD

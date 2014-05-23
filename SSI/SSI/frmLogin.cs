@@ -16,7 +16,6 @@ namespace SSI
             InitializeComponent();
         }
 
-
     
         private void btIngreso_Click(object sender, EventArgs e)
         {
