@@ -14,11 +14,12 @@ C:\Users\win\Documents\GitHub\SSIdesarrollo\SSI\SSI\obj\x86\Debug\EducaSSI.pdb
 C:\Users\win\Documents\GitHub\SSIdesarrollo\SSI\SSI\bin\Debug\EducaSSI.exe
 C:\Users\win\Documents\GitHub\SSIdesarrollo\SSI\SSI\bin\Debug\EducaSSI.pdb
 C:\Users\win\Documents\GitHub\SSIdesarrollo\SSI\SSI\bin\Debug\MySql.Data.dll
-C:\Users\win\Documents\GitHub\SSIdesarrollo\SSI\SSI\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\win\Documents\GitHub\SSIdesarrollo\SSI\SSI\obj\x86\Debug\SSI.frmLogin.resources
 C:\Users\win\Documents\GitHub\SSIdesarrollo\SSI\SSI\obj\x86\Debug\SSI.frmPrincipal1.resources
 C:\Users\win\Documents\GitHub\SSIdesarrollo\SSI\SSI\obj\x86\Debug\SSI.Properties.Resources.resources
-C:\Users\win\Documents\GitHub\SSIdesarrollo\SSI\SSI\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\win\Documents\GitHub\SSIdesarrollo\SSI\SSI\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\win\Documents\GitHub\SSIdesarrollo\SSI\SSI\obj\x86\Debug\SSI.frmTipoUsuario.resources
 C:\Users\win\Documents\GitHub\SSIdesarrollo\SSI\SSI\obj\x86\Debug\SSI.UserControl1.resources
+C:\Users\win\Documents\GitHub\SSIdesarrollo\SSI\SSI\obj\x86\Debug\EducaSSI.csprojResolveAssemblyReference.cache
+C:\Users\win\Documents\GitHub\SSIdesarrollo\SSI\SSI\obj\x86\Debug\SSI.Persona.resources
+C:\Users\win\Documents\GitHub\SSIdesarrollo\SSI\SSI\obj\x86\Debug\EducaSSI.csproj.GenerateResource.Cache
+C:\Users\win\Documents\GitHub\SSIdesarrollo\SSI\SSI\obj\x86\Debug\SSI.frmRoles.resources

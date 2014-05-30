@@ -70,6 +70,7 @@ namespace SSI
         private void frmLogin_Load(object sender, EventArgs e)
         {
           this.tbUsuario.Focus();
+            
         }
 
         private void tbUsuario_Enter(object sender, EventArgs e)

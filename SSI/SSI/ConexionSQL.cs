@@ -5,7 +5,7 @@ using System.Text;
 using MySql.Data.MySqlClient;
 using System.Windows.Forms;
 using System.Data;
-
+using System.Text.RegularExpressions;
 namespace SSI
 {
     public class ConexionSQL
@@ -36,6 +36,7 @@ namespace SSI
                 conectarSQL.Open();
                 txEstadoCnx = true;
                 cnn = new MySqlConnection(txConexGlobal);
+                conectarSQL.Close();
             }
            
         catch (MySqlException ex)
@@ -76,6 +77,11 @@ namespace SSI
                 Application.Exit();
             }
         }
+
+        public bool EsEntero(string stNumero)
+        {
+            return Regex.IsMatch(stNumero, @"^\d+$");
+        } 
     }
 
      

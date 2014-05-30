@@ -1,6 +1,6 @@
 ﻿namespace SSI
 {
-    partial class frmTipoUsuario
+    partial class frmRoles
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTipoUsuario));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRoles));
             this.tbCodigo = new System.Windows.Forms.TextBox();
             this.lbLogo = new System.Windows.Forms.Label();
             this.pbLogo = new System.Windows.Forms.PictureBox();
@@ -128,11 +128,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Location = new System.Drawing.Point(17, 32);
+            this.label1.Location = new System.Drawing.Point(51, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 25);
+            this.label1.Size = new System.Drawing.Size(66, 25);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Nombre Tipo:";
+            this.label1.Text = "Nombre:";
             this.label1.UseCompatibleTextRendering = true;
             // 
             // panel1
@@ -159,11 +159,11 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label2.Location = new System.Drawing.Point(84, 59);
+            this.label2.Location = new System.Drawing.Point(27, 59);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(33, 25);
+            this.label2.Size = new System.Drawing.Size(90, 25);
             this.label2.TabIndex = 13;
-            this.label2.Text = "Rol:";
+            this.label2.Text = "Descripción:";
             this.label2.UseCompatibleTextRendering = true;
             // 
             // cbRol
@@ -214,9 +214,9 @@
             this.lbTitulo.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.lbTitulo.Location = new System.Drawing.Point(27, 9);
             this.lbTitulo.Name = "lbTitulo";
-            this.lbTitulo.Size = new System.Drawing.Size(173, 27);
+            this.lbTitulo.Size = new System.Drawing.Size(64, 27);
             this.lbTitulo.TabIndex = 10;
-            this.lbTitulo.Text = "Tipos de Usuario";
+            this.lbTitulo.Text = "Roles";
             // 
             // panel2
             // 
@@ -286,9 +286,8 @@
             this.btneliminar.Size = new System.Drawing.Size(30, 30);
             this.btneliminar.TabIndex = 9;
             this.btneliminar.UseVisualStyleBackColor = true;
-            this.btneliminar.Click += new System.EventHandler(this.btneliminar_Click);
             // 
-            // frmTipoUsuario
+            // frmRoles
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -305,10 +304,10 @@
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(680, 480);
-            this.Name = "frmTipoUsuario";
-            this.Text = "Tipo Usuario";
-            this.Load += new System.EventHandler(this.frmTipoUsuario_Load);
-            this.ResizeEnd += new System.EventHandler(this.frmTipoUsuario_ResizeEnd);
+            this.Name = "frmRoles";
+            this.Text = "Roles";
+            this.Load += new System.EventHandler(this.frmRoles_Load);
+            this.ResizeEnd += new System.EventHandler(this.frmRoles_ResizeEnd);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgForma)).EndInit();
             this.panel1.ResumeLayout(false);

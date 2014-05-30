@@ -69,11 +69,23 @@
     <Compile Include="frmPrincipal1.Designer.cs">
       <DependentUpon>frmPrincipal1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRoles.Designer.cs">
+      <DependentUpon>frmRoles.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmTipoUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmTipoUsuario.Designer.cs">
       <DependentUpon>frmTipoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Persona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Persona.Designer.cs">
+      <DependentUpon>Persona.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -89,8 +101,14 @@
     <EmbeddedResource Include="frmPrincipal1.resx">
       <DependentUpon>frmPrincipal1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmRoles.resx">
+      <DependentUpon>frmRoles.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmTipoUsuario.resx">
       <DependentUpon>frmTipoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Persona.resx">
+      <DependentUpon>Persona.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -123,6 +141,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="educativo2.ico" />
+    <Content Include="Resources\edit2.ico" />
+    <Content Include="Resources\educativo2.ico" />
+    <Content Include="Resources\error.ico" />
+    <Content Include="Resources\new.ico" />
+    <None Include="Resources\salir.png" />
+    <Content Include="Resources\save.ico" />
+    <Content Include="Resources\search.ico" />
     <None Include="Resources\SSI_logo.png" />
   </ItemGroup>
   <ItemGroup>

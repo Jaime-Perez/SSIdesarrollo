@@ -9,15 +9,15 @@ using MySql.Data.MySqlClient;
 
 namespace SSI
 {
-    public partial class frmTipoUsuario : Form
+    public partial class frmRoles : Form
     {
-        public frmTipoUsuario()
+        public frmRoles()
         {
             InitializeComponent();
         }
 
         ConexionSQL CSQL = new ConexionSQL(); //instanciar clase conexion
-        private void frmTipoUsuario_Load(object sender, EventArgs e)
+        private void frmRoles_Load(object sender, EventArgs e)
         {
 
      /*--------------------------------------------
@@ -77,7 +77,7 @@ namespace SSI
             else
                  {
                 MessageBox.Show("No se puede conectar a la Base de Datos");
-                frmTipoUsuario.ActiveForm.Close();
+                frmRoles.ActiveForm.Close();
                  }
             }
             catch (MySqlException ex)
@@ -154,7 +154,7 @@ namespace SSI
 
                     stSQLins = "insert into tmatipousuario(txTipoUsuario, idRol) values('" + tbDescrip.Text + "', " + cbRol.SelectedValue + ")";
                     //MessageBox.Show(stSQLins);
-                    frmTipoUsuario_Load(null, null);
+                    frmRoles_Load(null, null);
                     CSQL.mostrar(stSQLins);
                     break;
 
@@ -197,9 +197,9 @@ namespace SSI
                     else
                     {
                         MessageBox.Show("No se puede conectar a la Base de Datos");
-                        return;
+                     
                     }
-                    btneliminar.Enabled=true;
+
                     
                     break;
 
@@ -218,7 +218,7 @@ namespace SSI
                         tbTipo.Text = "";
                         tbCodigo.Text = "";
                         tbDescrip.Text = "";
-                        frmTipoUsuario_Load(null,null);
+                        frmRoles_Load(null,null);
                     }
                     else
                     {
@@ -226,10 +226,8 @@ namespace SSI
 
                     }
 
+
                     break;
-
-
-
                 default:
                     Console.WriteLine("Operación no admitida");
                     break;
@@ -241,7 +239,7 @@ namespace SSI
 
         private void btCancelar_Click(object sender, EventArgs e)
         {
-            frmTipoUsuario_Load(null, null);
+            frmRoles_Load(null, null);
             // this.Close();
         }
 
@@ -259,7 +257,7 @@ namespace SSI
             tbCodigo.Focus();
         }
 
-        private void frmTipoUsuario_ResizeEnd(object sender, EventArgs e)
+        private void frmRoles_ResizeEnd(object sender, EventArgs e)
         {
     /*--------------------------------------------
     Nombre:         Redimensionador
@@ -291,14 +289,7 @@ namespace SSI
 
         private void btnguardar_Click(object sender, EventArgs e)
         {
-            button1_Click(null,null);
-        }
-
-        private void btneliminar_Click(object sender, EventArgs e)
-        {
-            tbTipo.Text = "4"; //buscar
-            fnMuestra();
-            tbCodigo.Focus();
+            button1_Click(null, null);
         }
 
 

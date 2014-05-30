@@ -35,8 +35,47 @@ namespace SSI
 
         private void tipoDeUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmTipoUsuario frm = new frmTipoUsuario();
-                    frm.Show();
+            ConexionSQL CSQL = new ConexionSQL(); //instanciar clase conexion
+            CSQL.CONECTAR();
+            if (CSQL.txEstadoCnx)
+            {
+                frmTipoUsuario frmTUsuario = new frmTipoUsuario();
+                frmTUsuario.MdiParent = this;
+                frmTUsuario.Show();
+            }
+            else
+            {
+                MessageBox.Show("No se puede conectar a la Base de datos\r\nVerifique conexión al servidor");
+            }
+        }
+
+ 
+  
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+            //this.Close();
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rolesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ConexionSQL CSQL = new ConexionSQL(); //instanciar clase conexion
+            CSQL.CONECTAR();
+            if (CSQL.txEstadoCnx)
+            {
+                frmRoles frmRoles = new frmRoles();
+                frmRoles.MdiParent = this;
+                frmRoles.Show();
+            }
+            else
+            {
+                MessageBox.Show("No se puede conectar a la Base de datos\r\nVerifique conexión al servidor");
+            }
         }
 
 
